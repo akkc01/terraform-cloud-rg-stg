@@ -1,10 +1,10 @@
 terraform {
-backend "remote" {
-  organization = "akkc"
-  workspaces {
-    name = "akkc-api-dev"    
+  backend "remote" {
+    organization = "akkc"
+    workspaces {
+      name = "akkc-api-dev"
+    }
   }
-}
 }
 
 # az ad sp create-for-rbac \

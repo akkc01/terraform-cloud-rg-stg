@@ -1,7 +1,7 @@
 resource "azurerm_resource_group" "rg" {
   name     = "rg-terraform"
   location = "East US"
-  
+
 }
 
 resource "azurerm_storage_account" "storage" {
