@@ -1,5 +1,5 @@
 terraform {
-backend "terraform-cloud" {
+backend "remote" {
   organization = "akkc"
   workspaces {
     name = "akkc-api-dev"    
